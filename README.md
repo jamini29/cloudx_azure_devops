@@ -28,7 +28,10 @@ per each web app. Please use next string as setting value:
 
 
 https://learn.microsoft.com/en-us/azure/app-service/tutorial-multi-region-app
+
 https://learn.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile-cli
+
 https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/traffic-manager/quickstart-create-traffic-manager-profile-cli.md
+
 https://learn.microsoft.com/en-us/azure/app-service/overview-managed-identity?tabs=cli%2Chttp
 
