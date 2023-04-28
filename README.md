@@ -2,7 +2,10 @@
 
 
 
-
+- [What is Traffic Manager?](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview)
+- [Traffic Manager Frequently Asked Questions ](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-faqs)
+- [App Service overview](https://docs.microsoft.com/en-us/azure/app-service/overview)
+- [Azure Key Vault basic concepts](https://docs.microsoft.com/en-us/azure/key-vault/general/basic-concepts)
 
 
 
@@ -25,13 +28,31 @@ per each web app. Please use next string as setting value:
 
 
 
+- [Manage Azure Resource Groups by using Azure CLI](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-cli)
 
 
-https://learn.microsoft.com/en-us/azure/app-service/tutorial-multi-region-app
+- [Tutorial: Create a highly available multi-region app in Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/tutorial-multi-region-app)
+  - <https://learn.microsoft.com/en-us/azure/architecture/high-availability/reference-architecture-traffic-manager-application-gateway>
+  - <https://learn.microsoft.com/en-us/cli/azure/webapp/config/appsettings?view=azure-cli-latest#az-webapp-config-appsettings-set>
+  - <https://learn.microsoft.com/en-us/cli/azure/webapp/identity?view=azure-cli-latest>
+  - <https://learn.microsoft.com/en-us/cli/azure/appservice/plan?view=azure-cli-latest#az-appservice-plan-create>
+  - <https://learn.microsoft.com/en-us/cli/azure/webapp?view=azure-cli-latest#az-webapp-create>
+- [Quickstart: Create a Traffic Manager profile for a highly available web application using Azure CLI](https://learn.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile-cli)
+  - <https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/traffic-manager/quickstart-create-traffic-manager-profile-cli.md>
+  - <https://learn.microsoft.com/en-us/cli/azure/network/traffic-manager/profile?view=azure-cli-latest#az-network-traffic-manager-profile-create>
+- [az network traffic-manager endpoint](https://learn.microsoft.com/en-us/cli/azure/network/traffic-manager/endpoint?view=azure-cli-latest#az-network-traffic-manager-endpoint-create)
 
-https://learn.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile-cli
+- [Quickstart: Create a key vault using the Azure CLI](https://learn.microsoft.com/en-us/azure/key-vault/general/quick-create-cli)
+- [How to use managed identities for App Service and Azure Functions](https://learn.microsoft.com/en-us/azure/app-service/overview-managed-identity?tabs=cli%2Chttp)
+- [Quickstart: Set and retrieve a secret from Azure Key Vault using Azure CLI](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-cli)
+- [Assign a Key Vault access policy](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-cli)
+  - <https://learn.microsoft.com/en-us/cli/azure/keyvault?view=azure-cli-latest#az-keyvault-set-policy>
+- [Quickstart: Create a single database - Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-cli)
+  - <https://learn.microsoft.com/en-us/cli/azure/sql/db?view=azure-cli-latest#az-sql-db-create>
+  - <https://learn.microsoft.com/en-us/azure/azure-sql/database/scripts/create-and-configure-database-cli?view=azuresql>
+  
+### read more
 
-https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/traffic-manager/quickstart-create-traffic-manager-profile-cli.md
+- <https://learn.microsoft.com/en-us/azure/app-service/tutorial-connect-msi-sql-database?tabs=cli%2Cef%2Cdotnet>
 
-https://learn.microsoft.com/en-us/azure/app-service/overview-managed-identity?tabs=cli%2Chttp
-
+- [Use Azure portal to setup Continuous Delivery for Web App On Linux](https://devblogs.microsoft.com/devops/use-azure-portal-to-setup-continuous-delivery-for-web-app-on-linux/)
