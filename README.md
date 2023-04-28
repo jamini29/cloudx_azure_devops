@@ -28,6 +28,8 @@ per each web app. Please use next string as setting value:
 
 
 
+### useful links
+
 - [Manage Azure Resource Groups by using Azure CLI](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-cli)
 
 
